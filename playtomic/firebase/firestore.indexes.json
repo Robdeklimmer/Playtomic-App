@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "availableDates",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "courtRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
